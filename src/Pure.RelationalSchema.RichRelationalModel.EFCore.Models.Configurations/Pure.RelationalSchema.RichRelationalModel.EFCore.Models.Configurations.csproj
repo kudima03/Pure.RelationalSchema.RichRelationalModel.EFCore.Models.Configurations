@@ -8,4 +8,12 @@
     <!--<EnablePackageValidation>true</EnablePackageValidation>
     <PackageValidationBaselineVersion>0.1.0-preview.0.1.0</PackageValidationBaselineVersion>-->
   </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>Pure.RelationalSchema.RichRelationalModel.EFCore.Models.Configurations</PackageId>
+    <RootNamespace>Pure.RelationalSchema.RichRelationalModel.EFCore.Models.Configurations</RootNamespace>
+    <AssemblyName>Pure.RelationalSchema.RichRelationalModel.EFCore.Models.Configurations</AssemblyName>
+    <Authors>Dmitry Kurochkin</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/kudima03/Pure.RelationalSchema.RichRelationalModel.EFCore.Models.Configurations</PackageProjectUrl>
+  </PropertyGroup>
 </Project>
