@@ -16,4 +16,18 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/kudima03/Pure.RelationalSchema.RichRelationalModel.EFCore.Models.Configurations</PackageProjectUrl>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference
+      Include="Pure.Primitives.Abstractions.EFCore.Converters"
+      Version="0.1.0-preview.0.1.0"
+    />
+    <PackageReference
+      Include="Pure.Primitives.Abstractions.EFCore.ValueComparers"
+      Version="0.1.0-preview.0.1.0"
+    />
+    <PackageReference
+      Include="Pure.RelationalSchema.RichRelationalModel.EFCore.Models"
+      Version="0.1.0-preview.0.1.0"
+    />
+  </ItemGroup>
 </Project>
