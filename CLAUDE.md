@@ -15,6 +15,8 @@ dotnet test --no-build --verbosity normal     # run xUnit tests
 dotnet pack --configuration Release -p:Version=<version> --output .
 ```
 
+CI additionally passes `-p:AssemblyVersion` (pinned to the major) and `-p:FileVersion`; see `.github/workflows/publish-nuget.yml`.
+
 ## Architecture
 
 This is a **configurations-only NuGet library** — no domain logic, no data access, just EF Core `IEntityTypeConfiguration<T>` implementations for the rich relational schema model.
