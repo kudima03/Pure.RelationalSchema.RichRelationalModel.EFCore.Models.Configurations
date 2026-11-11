@@ -6,6 +6,16 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.1.0-preview.0.3.0] — 2026-11-11
+
+### Added
+
+- Added `net11.0` as a target framework.
+
+### Changed
+
+- Updated Pure.Primitives.Abstractions.EFCore.Converters, Pure.Primitives.Abstractions.EFCore.ValueComparers and Pure.RelationalSchema.RichRelationalModel.EFCore.Models to their .NET 11 releases.
+
 ## [0.1.0-preview.0.2.0] — 2026-10-22
 
 - Maintenance release: bumped Pure.Primitives.Abstractions.EFCore.Converters to 0.1.0-preview.0.2.0, packed README into the package, and derived assembly versions from the release tag.
