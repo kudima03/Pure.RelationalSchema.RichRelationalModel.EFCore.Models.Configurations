@@ -20,15 +20,15 @@
   <ItemGroup>
     <PackageReference
       Include="Pure.Primitives.Abstractions.EFCore.Converters"
-      Version="0.1.0-preview.0.2.0"
+      Version="0.1.0-preview.0.3.0"
     />
     <PackageReference
       Include="Pure.Primitives.Abstractions.EFCore.ValueComparers"
-      Version="0.1.0-preview.0.1.1"
+      Version="0.1.0-preview.0.2.0"
     />
     <PackageReference
       Include="Pure.RelationalSchema.RichRelationalModel.EFCore.Models"
-      Version="0.1.0-preview.0.1.0"
+      Version="0.1.0-preview.0.2.0"
     />
   </ItemGroup>
   <ItemGroup>
