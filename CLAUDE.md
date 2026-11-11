@@ -32,13 +32,13 @@ This is a **configurations-only NuGet library** — no domain logic, no data acc
 
 All GUID and String properties go through `GuidTypeConverter`/`GuidValueComparer` and `StringTypeConverter`/`StringValueComparer` from `Pure.Primitives.Abstractions.EFCore.Converters` and `Pure.Primitives.Abstractions.EFCore.ValueComparers`. The `IsUnique` bool on `IndexConfiguration` uses the corresponding Bool converter and comparer.
 
-**Multi-targeting:** net7.0, net8.0, net9.0, net10.0. `IsAotCompatible = true` — no reflection-based patterns.
+**Multi-targeting:** net7.0, net8.0, net9.0, net10.0, net11.0. `IsAotCompatible = true` — no reflection-based patterns.
 
 **Package validation:** `EnablePackageValidation = true` with `PackageValidationBaselineVersion = 0.1.0-preview.0.1.0`. Breaking API changes fail the build.
 
 **Publishing:** triggered by pushing a semver tag (pattern `*.*.*`). The tag name becomes the `PackageVersion`. Packages are published to both GitHub Packages and NuGet.org.
 
-**Tests:** one xUnit test project targeting net10.0 under `./src/Tests/`.
+**Tests:** one xUnit test project targeting net11.0 under `./src/Tests/`.
 
 ## Code Style
 

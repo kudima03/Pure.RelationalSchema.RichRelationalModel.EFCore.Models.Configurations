@@ -38,6 +38,7 @@ All GUID and String properties use converters and value comparers from the Pure 
 - .NET 8
 - .NET 9
 - .NET 10
+- .NET 11
 
 ## Installation
 
